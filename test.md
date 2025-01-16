@@ -111,3 +111,11 @@ git status : staging area 작업 파일 확인
 
 git commit -m "메시지명" : repository에 올리기
 git log : repository 작업 
+
+git remote add origin URL : 다리 연결하기
+git remote -v : 다리 확인하기
+git push origin +master : push 하기
+
+# clone과 pull의 차이점
+clone : 내가 새로운 환경에서 처음 다운로드 (git clone URL)
+pull : push나 clone을 전에 진행한 후에 다운로드 (git pull origin +master)
